@@ -175,10 +175,11 @@ SideBar.ZIndex = 999
 
 local MainContent = Instance.new("ScrollingFrame")
 MainContent.Size = UDim2.new(1, -150, 1, -60)
-MainContent.Position = UDim2.new(0, 145, 0, 75)
+MainContent.Position = UDim2.new(0, 145, 0, 68)
 MainContent.BackgroundTransparency = 1
 MainContent.ScrollBarThickness = 2
 MainContent.CanvasSize = UDim2.new(0, 0, 0, 0)
+MainContent.ClipsDescendants = false
 MainContent.Parent = InnerFrame
 MainContent.ZIndex = 999
 
