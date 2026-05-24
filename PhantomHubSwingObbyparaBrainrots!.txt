@@ -163,7 +163,7 @@ UICornerClose.Parent = CloseBtn
 
 local CloseStroke = Instance.new("UIStroke")
 CloseStroke.Color = Color3.fromRGB(60, 60, 60)
-CloseStroke.Thickness = 2
+CloseStroke.Thickness = 3
 CloseStroke.Parent = CloseBtn
 
 local SideBar = Instance.new("Frame")
